@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1a550e3b8a49174bb486ebe68cae303, type: 3}
+  m_Name: Level5
+  m_EditorClassIdentifier: 
+  portals:
+  - isPoverL: 1
+    isPoverR: 1
+    countL: 0
+    countR: 3
+    angleL: 0
+    angleR: 10
+  - isPoverL: 1
+    isPoverR: 1
+    countL: 3
+    countR: -3
+    angleL: 60
+    angleR: 60
+  - isPoverL: 1
+    isPoverR: 1
+    countL: 4
+    countR: -3
+    angleL: 10
+    angleR: 0
+  - isPoverL: 1
+    isPoverR: 1
+    countL: 0
+    countR: -5
+    angleL: 10
+    angleR: 0
+  - isPoverL: 0
+    isPoverR: 0
+    countL: 15
+    countR: 0
+    angleL: 80
+    angleR: 80
+  - isPoverL: 1
+    isPoverR: 1
+    countL: -5
+    countR: 1
+    angleL: 10
+    angleR: 0
+  - isPoverL: 0
+    isPoverR: 0
+    countL: 0
+    countR: 15
+    angleL: 80
+    angleR: 80
+  - isPoverL: 1
+    isPoverR: 1
+    countL: -4
+    countR: 4
+    angleL: 10
+    angleR: 0
+  - isPoverL: 0
+    isPoverR: 0
+    countL: 3
+    countR: 10
+    angleL: 60
+    angleR: 80
+  blocks:
+  - levelBlock: 40
+    groupBlocksPrefab: {fileID: 4754093772408436353, guid: 12ceefa92569dad4eb51c023c4d929b5, type: 3}
+  - levelBlock: 30
+    groupBlocksPrefab: {fileID: 4754093772408436353, guid: 78305eb59741e394d80ac85c08f5093b, type: 3}
+  - levelBlock: 35
+    groupBlocksPrefab: {fileID: 4754093772408436353, guid: 0907c1e2793d10b40ad2f6c52d2fedf0, type: 3}
+  - levelBlock: 10
+    groupBlocksPrefab: {fileID: 4754093772408436353, guid: 525715771f224f04e983bef7308d432c, type: 3}
+  - levelBlock: 40
+    groupBlocksPrefab: {fileID: 4754093772408436353, guid: 3ce4369c836b8d24d9768008e7a2f50a, type: 3}
+  - levelBlock: 5
+    groupBlocksPrefab: {fileID: 4754093772408436353, guid: 525715771f224f04e983bef7308d432c, type: 3}
+  - levelBlock: 40
+    groupBlocksPrefab: {fileID: 4754093772408436353, guid: bba940b153ef4394cb5c6d007b50acfe, type: 3}
+  - levelBlock: 30
+    groupBlocksPrefab: {fileID: 4754093772408436353, guid: 0907c1e2793d10b40ad2f6c52d2fedf0, type: 3}
+  - levelBlock: 40
+    groupBlocksPrefab: {fileID: 4754093772408436353, guid: 12ceefa92569dad4eb51c023c4d929b5, type: 3}
